@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Light-Dark-Mode</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--Navigation-->
+    <nav>
+      <div id="mode-switcher">
+        <span>Light</span>
+        <i class="fas fa-sun"></i>
+        <label class="switch">
+          <input type="checkbox" />
+          <span class="slider round"></span>
+        </label>
+      </div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#illustration">illustrations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <div class="home-titles">
+        <h1>The Dark Light Mode Website</h1>
+        <h2>Welcome To Our Website</h2>
+        <canvas class="background"></canvas>
+      </div>
+    </section>
+    <section id="illustration">
+      <img src="./img/code_typing-light.svg" alt="" />
+      <img src="./img/programming-light.svg" alt="" />
+      <img src="./img/working_remotely-light.svg" alt="" />
+
+      <canvas class="background"></canvas>
+    </section>
+
+    <section id="contact">
+      <div class="icons-container">
+        <i class="fab fa-github"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-behance-square"></i>
+      </div>
+    </section>
+    <!-- Script -->
+    <script src="particles.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
